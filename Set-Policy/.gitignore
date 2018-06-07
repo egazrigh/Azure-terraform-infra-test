@@ -1,0 +1,9 @@
+set-credentials.bat
+.terraform/
+.terraform.tfstate.lock.info
+terraform.tfstate*
+.idea
+*.iml
+*.iws
+*.key
+*.key.pub
