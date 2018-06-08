@@ -3,9 +3,9 @@ Derived from Azure example terraform-providers/terraform-provider-azurerm/exampl
 
 This is a work in progress with Terraform and azurerm provider
 
-- Some correction and minor change to make it work
-- incoherence between Linux and Windows image
+- Add os_profile_windows_config that was required
 - Add an output to list RDP access port for each created VM
+- Variabilized VM count to be able to provision bigger LB
 
 TODO :
 - remove ssh output 
